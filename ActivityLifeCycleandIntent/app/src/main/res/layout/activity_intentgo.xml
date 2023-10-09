@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/business"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Intentgo">
+    <Button
+        android:id="@+id/but"
+        android:onClick="openSomeThing"
+        android:layout_width="240dp"
+        android:backgroundTint="#0A858C"
+        android:textStyle="bold"
+        android:text="GO TO YOUTUBE"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:backgroundTint="#8313AB"
+        android:id="@+id/but1"
+        android:onClick="openSomeThing"
+        android:layout_width="240dp"
+        android:textStyle="bold"
+        android:text="GO TO GOOGLE"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/ed"
+        android:onClick="openSomeThing"
+        android:layout_width="match_parent"
+        android:hint="Give a Number "
+        android:textColor="#F4040404"
+        android:inputType="text"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@color/white"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/but3"
+        android:backgroundTint="#061680"
+        android:onClick="openSomeThing"
+        android:layout_width="240dp"
+        android:textStyle="bold"
+        android:text="SHARE"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

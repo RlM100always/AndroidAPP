@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Title Bar</string>
+    <string name="sum">SUM</string>
+    <string name="sub">SUB</string>
+    <string name="mul">MUL</string>
+    <string name="div">DIV</string>
+    <string name="input1">give a number </string>
+    <string name="input2">give another number</string>
+    <string name="First">Enter first Number </string>
+    <string name="Second">Enter Second Number </string>
+    <string name="app">Basic Calculator App </string>
+    <string name="ed1">Enter a Number </string>
+    <string name="ed2">Enter another Number </string>
+</resources>
